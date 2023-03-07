@@ -54,15 +54,6 @@ github.com/gorilla/mux
 ## explicit
 github.com/harvester/harvester/pkg/apis/harvesterhci.io
 github.com/harvester/harvester/pkg/apis/harvesterhci.io/v1beta1
-github.com/harvester/harvester/pkg/controller/master/supportbundle/types
-github.com/harvester/harvester/pkg/generated/clientset/versioned
-github.com/harvester/harvester/pkg/generated/clientset/versioned/scheme
-github.com/harvester/harvester/pkg/generated/clientset/versioned/typed/cdi.kubevirt.io/v1beta1
-github.com/harvester/harvester/pkg/generated/clientset/versioned/typed/harvesterhci.io/v1beta1
-github.com/harvester/harvester/pkg/generated/clientset/versioned/typed/k8s.cni.cncf.io/v1
-github.com/harvester/harvester/pkg/generated/clientset/versioned/typed/kubevirt.io/v1
-github.com/harvester/harvester/pkg/generated/clientset/versioned/typed/snapshot.storage.k8s.io/v1beta1
-github.com/harvester/harvester/pkg/generated/clientset/versioned/typed/upgrade.cattle.io/v1
 # github.com/hashicorp/golang-lru v0.5.4
 github.com/hashicorp/golang-lru
 github.com/hashicorp/golang-lru/simplelru
@@ -81,11 +72,6 @@ github.com/hashicorp/hcl/json/token
 github.com/inconshreveable/mousetrap
 # github.com/json-iterator/go v1.1.10
 github.com/json-iterator/go
-# github.com/k8snetworkplumbingwg/network-attachment-definition-client v0.0.0-20200331171230-d50e42f2b669
-github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/apis/k8s.cni.cncf.io
-github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/apis/k8s.cni.cncf.io/v1
-# github.com/kubernetes-csi/external-snapshotter/v2 v2.1.1
-github.com/kubernetes-csi/external-snapshotter/v2/pkg/apis/volumesnapshot/v1beta1
 # github.com/magiconair/properties v1.8.1
 github.com/magiconair/properties
 # github.com/mailru/easyjson v0.7.0
@@ -113,8 +99,6 @@ github.com/pelletier/go-toml
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
-# github.com/rancher/dapper v0.5.6
-## explicit
 # github.com/rancher/lasso v0.0.0-20210219160604-9baf1c12751b
 github.com/rancher/lasso/pkg/cache
 github.com/rancher/lasso/pkg/client
@@ -122,11 +106,7 @@ github.com/rancher/lasso/pkg/controller
 github.com/rancher/lasso/pkg/log
 github.com/rancher/lasso/pkg/mapper
 github.com/rancher/lasso/pkg/scheme
-# github.com/rancher/system-upgrade-controller/pkg/apis v0.0.0-20201117180404-6f0145c68124
-github.com/rancher/system-upgrade-controller/pkg/apis/condition
-github.com/rancher/system-upgrade-controller/pkg/apis/upgrade.cattle.io
-github.com/rancher/system-upgrade-controller/pkg/apis/upgrade.cattle.io/v1
-# github.com/rancher/wrangler v0.7.3-0.20210219161540-ef7fe9ce2443
+# github.com/rancher/wrangler v0.7.4-security1
 ## explicit
 github.com/rancher/wrangler/pkg/apply
 github.com/rancher/wrangler/pkg/apply/injectors
@@ -134,7 +114,6 @@ github.com/rancher/wrangler/pkg/condition
 github.com/rancher/wrangler/pkg/data
 github.com/rancher/wrangler/pkg/data/convert
 github.com/rancher/wrangler/pkg/generic
-github.com/rancher/wrangler/pkg/genericcondition
 github.com/rancher/wrangler/pkg/gvk
 github.com/rancher/wrangler/pkg/kv
 github.com/rancher/wrangler/pkg/merr
@@ -423,7 +402,6 @@ kubevirt.io/client-go/precond
 # kubevirt.io/containerized-data-importer v1.31.0 => github.com/rancher/kubevirt-containerized-data-importer v1.26.1-0.20210303063201-9e7a78643487
 kubevirt.io/containerized-data-importer/pkg/apis/core
 kubevirt.io/containerized-data-importer/pkg/apis/core/v1alpha1
-kubevirt.io/containerized-data-importer/pkg/apis/core/v1beta1
 # kubevirt.io/controller-lifecycle-operator-sdk v0.1.2
 kubevirt.io/controller-lifecycle-operator-sdk/pkg/sdk/api
 # sigs.k8s.io/structured-merge-diff/v4 v4.0.2
